@@ -33,17 +33,16 @@ The game is played in two parts:
 
 ## Setup
 
-Each player choses a civilization and a color.
+Each player chooses a civilization and a color.
 Players must then determine a first player in any way they choose.
 
 Each player receives 1 tile of each of the 7 colors (including black),
-which they shuffle and place as a face-down pile in front of them.
-In addition to those tiles, each player receives a tile of the color they chose,
+which they shuffle and place face-down in front of them.
+In addition to those tiles, each player receives a tile of the color they choose,
 as well as the portal tile of their color, which they both place face-up in front of them.
 
 The Heart of Eden tile is then placed at the center of the table.
 It is the map's first tile, and it's now time to add the rest!
-
 
 ## Building the map
 
@@ -58,12 +57,12 @@ or do both (removing the tile then adding it elsewhere).
 During map creation, players are only allowed to place tiles
 in such locations that the following conditions are met:
 - there must be at least 3 tiles between each portal tile and the Heart of Eden tile
-- there must be at least 4 tiles between any two portals tiles
+- there must be at least 4 tiles between any two portal tiles
 - each portal must be in contact with at most 2 tiles
 - tiles cannot be placed in direct contact with a portal tile which is already on the map
 - if a player's portal tile is already on the map, they are not allowed to place
   tiles on the map unless there is at least 3 tiles between the one they are placing
-  and their portal tile
+  and their own portal tile
 
 While placing tiles, keep track of those which are energy-rich locations,
 by putting an energy-rich-location token on any tile which is in contact
@@ -124,7 +123,7 @@ until a player wins. Those 3 phases are:
 
 To gain time, the Production and Reinforcements phases can generally
 be performed by all players at the same time, except if some of them want
-to base their choices on the previous players'.
+to base their choices on the previous players'. In this case, the phases are performed following the turn order.
 
 At the end of the Reinforcements phase, the 2nd player receives the 1st player token,
 thus becoming the 1st player for the next round.
@@ -148,7 +147,7 @@ Then, if they want to, they can create battles on up to 2 fronts
 
 To create a battle on 1 front, the player chooses a frontier between
 one of their territories and another territory they want to conquer.
-They then leave 1 troop on the center of their territory
+They then leave at least 1 troop on the center of their territory
 (which stays behind to occupy it), place the rest near the frontier,
 and play a unit card from their hand to start the battle.
 
@@ -156,7 +155,8 @@ To create a battle on 2 fronts, the player proceeds similarly,
 choosing 2 frontiers, placing troops near both frontiers,
 and playing a unit cards to start each battle.
 If the player is attacking from the same territory at the same time,
-they must divide their troops and choose which ones are sent to each front.
+they must divide their troops and choose which ones are sent to each front. 
+The player must always leave at least 1 troop on their attacking territory.
 
 After the fronts are created, more units may then be added
 (see section on Combat for more details),
@@ -217,10 +217,10 @@ that goes only through that player's territories.
 Sometimes however, after losing one or more territories,
 some may become disconnected from the player's portal.
 
-Each players receive 1 resource (materialized by ???) for each non-disconnected territory they control
+Each players receive 1 resource (materialized by ???) for each connected territory they control
 (including their portal territory or the Heart of Eden),
-plus 1 resource per non-disconnected territory of their color they control,
-plus 1 resource per non-disconnected energy-rich location they control
+plus 1 resource per connected territory of their color they control,
+plus 1 resource per connected energy-rich location they control.
 
 In addition to that, a player controlling the Heart of Eden receives 1 pure energy
 (materialized by a counter token) if that territory isn't disconnected,
